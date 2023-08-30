@@ -13,7 +13,7 @@ function Formulario() {
         setAlerta('Todos los campos son obligatorios')
         return 
     }
-
+    setAlerta('')
     consultarClima(busqueda)
   }
 
